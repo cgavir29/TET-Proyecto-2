@@ -49,5 +49,12 @@ TODO
 
 ## 6. División del Trabajo
 * **a) Santiago Arredondo Quintero**
+	* Despliegue Wordpress Docker en Amazon
+	* Despliegue Wordpress Nativo en Amazon
 * **b) Kevyn Santiago Gómez Patiño**
+	* Obtención dominio
+	* Configuración DNS
 * **c) Camilo Gaviria Castrillón**
+	* Despliegue Wordpress Docker en DCA
+	* Despliegue Wordpress Nativo en DCA
+
