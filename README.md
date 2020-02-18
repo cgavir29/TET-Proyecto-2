@@ -1,7 +1,7 @@
 # TET-Proyecto-2
 
 ## 1. Información del Proyecto
-*	**a) Integrantes**
+* **a) Integrantes**
 
 	* Santiago Arredondo Quintero
 	* Kevyn Santiago Gómez Patiño
@@ -11,20 +11,20 @@
 	* Wordpress
 	
 * **c) Dominio en el DCA**
-* proyecto02.dis.eafit.edu.co
+	* proyecto02.dis.eafit.edu.co
   
 * **d) Dominio en Amazon Empleado**
-* protet.ml
+	* protet.ml
   
 * **e) IP en el DCA**
-* 200.12.180.100
+	* 200.12.180.100
   
 * **f) IP Pública en Amazon**
-* TODO
+	* TODO
   
 * **g) Etc.**
 
-  * TODO
+  	* TODO
 
 ## 2. Entendimiento del Proyecto
 
