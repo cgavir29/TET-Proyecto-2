@@ -53,7 +53,7 @@ TODO
 	* Despliegue Wordpress Nativo en Amazon
 * **b) Kevyn Santiago Gómez Patiño**
 	* Obtención dominio
-	* Configuración DNS
+	* Despliegue Wordpress Docker en Amazon
 * **c) Camilo Gaviria Castrillón**
 	* Despliegue Wordpress Docker en DCA
 	* Despliegue Wordpress Nativo en DCA
