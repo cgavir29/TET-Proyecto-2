@@ -2,42 +2,37 @@
 
 ## 1. Información del Proyecto
 *	**a) Integrantes**
-	
-	* I. Santiago Arredondo Quintero
-	* II. Kevyn Santiago Gómez Patiño
-	* III. Camilo Gaviria Castrillón
+
+	* Santiago Arredondo Quintero
+	* Kevyn Santiago Gómez Patiño
+	* Camilo Gaviria Castrillón
 	
 * **b)  Aplicación Seleccionada**
-	
-	* > Wordpress 
+	* Wordpress
 	
 * **c) Dominio en el DCA**
-
-  * > proyecto02.dis.eafit.edu.co
-
+* proyecto02.dis.eafit.edu.co
+  
 * **d) Dominio en Amazon Empleado**
-
-  * > protet.ml
-
+* protet.ml
+  
 * **e) IP en el DCA**
-
-  * > 200.12.180.100
-
+* 200.12.180.100
+  
 * **f) IP Pública en Amazon**
-
-  * > TODO
-
+* TODO
+  
 * **g) Etc.**
 
-  * > TODO
+  * TODO
 
 ## 2. Entendimiento del Proyecto
 
-> TODO
+TODO
 
 ## 3. Contexto del Proyecto
 
-> TODO
+TODO
 
 ## 4. Avances por Semana del Proyecto 
 * **a) Semana 2**
@@ -50,9 +45,9 @@
 
 ## 5. Dificultades
 
-> TODO
+TODO
 
-## 6. División del trabajo
+## 6. División del Trabajo
 * **a) Santiago Arredondo Quintero**
 * **b) Kevyn Santiago Gómez Patiño**
 * **c) Camilo Gaviria Castrillón**
