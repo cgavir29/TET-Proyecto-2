@@ -37,10 +37,10 @@ TODO
 ## 4. Avances por Semana del Proyecto 
 * **a) Semana 2**
 	* Se registró en equipo de trabajo en google docs.
-	* Inicialmente habíamos pensado en trabajar con Moodle y lo desplegamos en clase usando Docker en el DCA para comprender el funcionamiento del DCA y empezar a familiarizarnos tecnología de contenedores.
+	* Inicialmente habíamos pensado en trabajar con Moodle y lo desplegamos en clase usando Docker en el DCA para comprender el funcionamiento del mismo y empezar a familiarizarnos tecnología de contenedores.
 * **b) Semana 3**
 	* Cambiamos sistema al CMS Wordpress.
-	* Aprendizaje de Docker y herramientas como docker-compose para el despliegue. El siguiente es el fichero de configuración `docker-compose.yml` en que se trabajó durante está semana y con el cual se desplegó la aplicación posteriormente.
+	* Aprendizaje de Docker y herramientas como docker-compose para el despliegue. El siguiente es el fichero de configuración `docker-compose.yml` en que se trabajó durante esta semana y con el cual se desplegó la aplicación posteriormente.
 	```
 	version: '3.3'
 
@@ -87,8 +87,9 @@ TODO
 
 ## 5. Dificultades
 
-TODO
-
+* A la hora de desplegar Wordpress nativo en el DCA el firewall de la máquina no permitía el tráfico al puerto 80 y por ende apache no estaba funcionando como se esperaba. Se utilizó el comando `sudo systemctl stop firewalld` para resolver el problema.
+* Para que Wordpress nativo funcionará en el DCA tuvimos que actualizar la versión de `Php` de la `5.4.16` a la `7.3.14`.
+.
 ## 6. División del Trabajo
 * **a) Santiago Arredondo Quintero**
 	* Despliegue Wordpress Nativo en Amazon
