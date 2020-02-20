@@ -11,13 +11,13 @@
 	* Wordpress
 	
 * **c) Dominio en el DCA**
-	* proyecto02.dis.eafit.edu.co
+	* `proyecto02.dis.eafit.edu.co`
   
 * **d) Dominio en Amazon Empleado**
-	* protet.ml
+	* `protet.ml`
   
 * **e) IP en el DCA**
-	* 200.12.180.100
+	* `200.12.180.100`
   
 * **f) IP Pública en Amazon**
 	* TODO
@@ -88,15 +88,15 @@ TODO
 ## 5. Dificultades
 
 * A la hora de desplegar Wordpress nativo en el DCA el firewall de la máquina no permitía el tráfico al puerto 80 y por ende apache no estaba funcionando como se esperaba. Se utilizó el comando `sudo systemctl stop firewalld` para resolver el problema.
-* Para que Wordpress nativo funcionará en el DCA tuvimos que actualizar la versión de `Php` de la `5.4.16` a la `7.3.14`.
-.
+* Para que Wordpress nativo funcionará en el DCA tuvimos que actualizar la versión de Php de la `5.4.16` a la `7.3.14`.
+
 ## 6. División del Trabajo
 * **a) Santiago Arredondo Quintero**
-	* Despliegue Wordpress Nativo en Amazon
+	* Despliegue Wordpress Nativo en Amazon.
 * **b) Kevyn Santiago Gómez Patiño**
-	* Obtención dominio y configuración DNS
-	* Despliegue Wordpress Docker en Amazon
+	* Obtención dominio y configuración DNS.
+	* Despliegue Wordpress Docker en Amazon.
 * **c) Camilo Gaviria Castrillón**
-	* Despliegue Wordpress Docker en DCA
-	* Despliegue Wordpress Nativo en DCA
+	* Despliegue Wordpress Docker en DCA.
+	* Despliegue Wordpress Nativo en DCA.
 
