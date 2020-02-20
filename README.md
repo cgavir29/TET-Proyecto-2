@@ -88,7 +88,7 @@ TODO
 ## 5. Dificultades
 
 * Cuando se desplegaba Wordpress de forma nativa en el DCA, el firewall de la máquina no permitía el tráfico al puerto 80 y por ende *Apache* no estaba funcionando como se esperaba. Se utilizó el comando `sudo systemctl stop firewalld` para resolver el problema.
-* Para que Wordpress nativo funcionará en el DCA tuvimos que actualizar la versión de *Php* de la `5.4.16` a la `7.3.14`.
+* Para que Wordpress nativo funcionará en el DCA tuvimos que actualizar la versión de *Php* de la `5.4.16` a la `7.3.15`.
 
 ## 6. División del Trabajo
 * **a) Santiago Arredondo Quintero**
