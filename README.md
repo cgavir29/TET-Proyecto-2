@@ -76,11 +76,14 @@ TODO
 * **c) Semana 4**
 	* Se desplegó Wordpress en el DCA usando Docker.
 	* Se desplegó Wordpress en el DCA de forma nativa.
-* **d) Semana 5**
 	* Obtuvimos el dominio `protet.ml`.
 	* Se desplegó Wordpress en Amazon usando Docker.
 	* Se hizo la configuración del DNS para Amazon.
 	* Se desplegó Wordpress nativo en Amazon.
+* **d) Semana 5**
+	* Kevyn -> Seguridad:
+	* Santiago -> Disponibilidad:
+	* Camilo -> Rendimiento:
 * **e) Semana 6**
 * **f) Semana 7**
 * **g) Semana 8**
@@ -94,10 +97,12 @@ TODO
 ## 6. División del Trabajo
 * **a) Santiago Arredondo Quintero**
 	* Despliegue Wordpress Nativo en Amazon.
+	* Diseño e implementación de la estrategia de disponibilidad.
 * **b) Kevyn Santiago Gómez Patiño**
 	* Obtención dominio y configuración DNS.
 	* Despliegue Wordpress Docker en Amazon.
+	* Diseño e implementación de la estrategia de seguridad.
 * **c) Camilo Gaviria Castrillón**
 	* Despliegue Wordpress Docker en DCA.
 	* Despliegue Wordpress Nativo en DCA.
-
+	* Diseño e implementación de la estrategia de rendimiento.
