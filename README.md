@@ -80,10 +80,16 @@ TODO
 	* Se desplegó Wordpress en Amazon usando Docker.
 	* Se hizo la configuración del DNS para Amazon.
 	* Se desplegó Wordpress nativo en Amazon.
-* **d) Semana 5**
+* **d) Semana 5 y 6**
 	* Kevyn -> Seguridad:
 	* Santiago -> Disponibilidad:
 	* Camilo -> Rendimiento:
+		* Se montó el CDN utilizando **Cloudflare**.
+		* Minificación de HTML, CSS y JavaScript usando **Cloudflare**.
+		* Minimización de plugins en WordPress. Sólo se tienen los necesarios para mejorar el desempeño.
+		* Estrategia de Caching de _Page Cache, Object Cache y Browser Cache_ utilizando **W3 Total Cache**.
+		* Optimización de imágenes existentes y futuras con **Smush** para sean del mismo tamaño que se renderizan.
+		* Lazy load en imágenes con **Smush** para que las imágenes no visibles cargen de último, mejorando así el tiempo de respuesta inicial.
 * **e) Semana 6**
 * **f) Semana 7**
 * **g) Semana 8**
@@ -93,6 +99,8 @@ TODO
 * Cuando se desplegaba Wordpress de forma nativa en el DCA, el firewall de la máquina no permitía el tráfico al puerto 80 y por ende *Apache* no estaba funcionando como se esperaba. Se utilizó el comando `sudo systemctl stop firewalld` para resolver el problema.
 * Para que Wordpress nativo funcionará en el DCA tuvimos que actualizar la versión de *Php* de la `5.4.16` a la `7.3.15`.
 * En AWS se hizo una primera prueba con una instancia y surgieron errores con la versión de PHP ya que no funcionaban varias formas de actualizar la versión. También cuando se instaló MySQL no pedía contraseña root y fue un problema configurarlo ya que traía una por default.
+* AWS Educate no permite trabajar con el servicio de EKS por lo que se tuvo que cambiar de estrategia totalmente.
+* Amazon no permite crear una base de datos de cache REDIS utilizando el servicio ElastiCache.
 
 ## 6. División del Trabajo
 * **a) Santiago Arredondo Quintero**
