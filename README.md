@@ -90,7 +90,6 @@ TODO
 		* Estrategia de Caching de _Page Cache, Object Cache y Browser Cache_ utilizando **W3 Total Cache**.
 		* Optimización de imágenes existentes y futuras con **Smush** para sean del mismo tamaño que se renderizan.
 		* Lazy load en imágenes con **Smush** para que las imágenes no visibles cargen de último, mejorando así el tiempo de respuesta inicial.
-* **e) Semana 6**
 * **f) Semana 7**
 * **g) Semana 8**
 
@@ -101,6 +100,7 @@ TODO
 * En AWS se hizo una primera prueba con una instancia y surgieron errores con la versión de PHP ya que no funcionaban varias formas de actualizar la versión. También cuando se instaló MySQL no pedía contraseña root y fue un problema configurarlo ya que traía una por default.
 * AWS Educate no permite trabajar con el servicio de EKS por lo que se tuvo que cambiar de estrategia totalmente.
 * Amazon no permite crear una base de datos de cache REDIS utilizando el servicio ElastiCache.
+* Se había utilizado W3 Total Cache para la minificación de archivos al principio, sin embargo, la método utilizado por ellos daño algunas partes visuales de la aplicación.
 
 ## 6. División del Trabajo
 * **a) Santiago Arredondo Quintero**
