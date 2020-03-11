@@ -91,6 +91,9 @@ TODO
 		* Optimización de imágenes existentes y futuras con **Smush** para sean del mismo tamaño que se renderizan.
 		* Lazy load en imágenes con **Smush** para que las imágenes no visibles cargen de último, mejorando así el tiempo de respuesta inicial.
 * **f) Semana 7**
+	* Camilo -> Rendimiento:
+		* Creación del bucket en S3 y establecimiento de políticas de acceso al bucket.
+		* Creación de políticas de acceso para usuarios IAM hacia S3.
 * **g) Semana 8**
 
 ## 5. Dificultades
@@ -101,6 +104,7 @@ TODO
 * AWS Educate no permite trabajar con el servicio de EKS por lo que se tuvo que cambiar de estrategia totalmente.
 * Amazon no permite crear una base de datos de cache REDIS utilizando el servicio ElastiCache.
 * Se había utilizado W3 Total Cache para la minificación de archivos al principio, sin embargo, la método utilizado por ellos daño algunas partes visuales de la aplicación.
+* La creación de usuarios IAM no genera claves de acceso, lo cual no permite establecer una conexión entre Wordpress y S3 para la descarga de contenido estático.
 
 ## 6. División del Trabajo
 * **a) Santiago Arredondo Quintero**
