@@ -94,6 +94,8 @@ TODO
 	* Camilo -> Rendimiento:
 		* Creación del bucket en S3 y establecimiento de políticas de acceso al bucket.
 		* Creación de políticas de acceso para usuarios IAM hacia S3.
+		* Creación de cuenta propia para el contenido estático en S3.
+		* Se trasladó el contenido estático satisfactoriamente.
 * **g) Semana 8**
 
 ## 5. Dificultades
