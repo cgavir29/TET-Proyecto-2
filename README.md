@@ -82,6 +82,8 @@ TODO
 	* Se desplegó Wordpress nativo en Amazon.
 * **d) Semana 5 y 6**
 	* Kevyn -> Seguridad:
+	        * Adquirimos certificado SSL utlizando **Cloudflare**.
+		* Configuración del SMTP con **WP Mail SMTP**
 	* Santiago -> Disponibilidad:
 	* Camilo -> Rendimiento:
 		* Se montó el CDN utilizando **Cloudflare**.
@@ -91,6 +93,12 @@ TODO
 		* Optimización de imágenes existentes y futuras con **Smush** para sean del mismo tamaño que se renderizan.
 		* Lazy load en imágenes con **Smush** para que las imágenes no visibles cargen de último, mejorando así el tiempo de respuesta inicial.
 * **f) Semana 7**
+	* Kevyn -> Seguridad:
+		* Two factor autentication con el plugin **Two factor** proveido por Wordpress.
+		* Autenticacion con terceros, Facebook y Google, con el plugin **Social Login** preveido por wordpress.
+		* Implementacion de protección anti ataques de fuerza bruta con **Anti-Malware Security and Brute-Force Firewall**
+		* Protección anti spam y anti DDoS con **Spam Protection**
+		
 	* Camilo -> Rendimiento:
 		* Creación del bucket en S3 y establecimiento de políticas de acceso al bucket.
 		* Creación de políticas de acceso para usuarios IAM hacia S3.
