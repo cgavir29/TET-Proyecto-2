@@ -6,8 +6,3 @@ services:
      ports:
        - "80:80"
      restart: always
-     environment:
-       WORDPRESS_DB_HOST: wordpress2.cyeev4yqy4o0.us-east-1.rds.amazonaws.com
-       WORDPRESS_DB_USER: wordpress2
-       WORDPRESS_DB_PASSWORD: wordpress2
-       WORDPRESS_DB_NAME: wordpress2
