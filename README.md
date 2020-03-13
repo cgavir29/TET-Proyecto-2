@@ -83,7 +83,7 @@ TODO
 * **d) Semana 5 y 6**
 	* Kevyn -> Seguridad:
 	        * Adquirimos certificado SSL utlizando **Cloudflare**.
-		* Configuración del SMTP con **WP Mail SMTP**
+		* Configuración del SMTP con **WP Mail SMTP**.
 	* Santiago -> Disponibilidad:
 	* Camilo -> Rendimiento:
 		* Se montó el CDN utilizando **Cloudflare**.
@@ -96,8 +96,8 @@ TODO
 	* Kevyn -> Seguridad:
 		* Two factor autentication con el plugin **Two factor** proveido por Wordpress.
 		* Autenticacion con terceros, Facebook y Google, con el plugin **Social Login** preveido por wordpress.
-		* Implementacion de protección anti ataques de fuerza bruta con **Anti-Malware Security and Brute-Force Firewall**
-		* Protección anti spam y anti DDoS con **Spam Protection**
+		* Implementacion de protección anti ataques de fuerza bruta con **Anti-Malware Security and Brute-Force Firewall**.
+		* Protección anti spam y anti DDoS con **Spam Protection**.
 		
 	* Camilo -> Rendimiento:
 		* Creación del bucket en S3 y establecimiento de políticas de acceso al bucket.
