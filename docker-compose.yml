@@ -5,6 +5,7 @@ services:
      image: wordpress:latest
      ports:
        - "80:80"
+       - "443:443"
      restart: always
      environment:
        WORDPRESS_DB_HOST: wordpress.ciq4syhacdms.us-east-1.rds.amazonaws.com
