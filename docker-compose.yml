@@ -7,6 +7,11 @@ services:
        - "80:80"
        - "443:443"
      restart: always
+     volumes:
+       # Copy plugins
+       - ./plugins/amazon-s3-and-cloudfront/:/var/www/html/wp-content/plugins/amazon-s3-and-cloudfront
+       - ./plugins/w3-total-cache/:/var/www/html/wp-content/plugins/w3-total-cache
+       - ./plugins/wp-smushit/:/var/www/html/wp-content/plugins/wp-smushit
      environment:
        WORDPRESS_DB_HOST: wordpress.ciq4syhacdms.us-east-1.rds.amazonaws.com
        WORDPRESS_DB_USER: wordpress
