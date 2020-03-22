@@ -105,6 +105,8 @@ TODO
 		* Creación de cuenta propia para el contenido estático en S3.
 		* Se trasladó el contenido estático satisfactoriamente.
 * **g) Semana 8**
+	* Camilo -> Rendimiento:
+		* Se transladaron los plugins al repositorio para tenerlos disponibles en cada contenedor que se despliegue de manera automática por el autoscaling group.
 
 ## 5. Dificultades
 
@@ -115,6 +117,7 @@ TODO
 * Amazon no permite crear una base de datos de cache REDIS utilizando el servicio ElastiCache.
 * Se había utilizado W3 Total Cache para la minificación de archivos al principio, sin embargo, la método utilizado por ellos daño algunas partes visuales de la aplicación.
 * La creación de usuarios IAM no genera claves de acceso, lo cual no permite establecer una conexión entre Wordpress y S3 para la descarga de contenido estático.
+* Si bien se tienen los plugins en cada contenedor que se despliegue, estos no se activan automáticamante en Wordpress por lo que tener todas las máquinas al día con la estrategia de rendimiento es inconcebible.
 
 ## 6. División del Trabajo
 * **a) Santiago Arredondo Quintero**
