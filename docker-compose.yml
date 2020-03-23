@@ -13,7 +13,7 @@ services:
        - ./plugins/w3-total-cache/:/var/www/html/wp-content/plugins/w3-total-cache
        - ./plugins/wp-smushit/:/var/www/html/wp-content/plugins/wp-smushit
      environment:
-       WORDPRESS_DB_HOST: wordpress.ciq4syhacdms.us-east-1.rds.amazonaws.com
+       WORDPRESS_DB_HOST: wordpress.cedazc9kykyk.us-east-1.rds.amazonaws.com
        WORDPRESS_DB_USER: wordpress
        WORDPRESS_DB_PASSWORD: wordpress
        WORDPRESS_DB_NAME: wordpress
