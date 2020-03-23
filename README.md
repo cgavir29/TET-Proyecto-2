@@ -107,6 +107,9 @@ TODO
 * **g) Semana 8**
 	* Camilo -> Rendimiento:
 		* Se transladaron los plugins al repositorio para tenerlos disponibles en cada contenedor que se despliegue de manera automática por el autoscaling group.
+		* Resultado Google PageSpeed Mobile: ![GooglePageSpeedMobile](./images/GooglePageSpeedMobile.png)
+		* Resultado Google PageSpeed Desktop: ![GooglePageSpeedDesktop](./images/GooglePageSpeedDesktop.png)
+		* Resultado WebPageTest: ![WebPageTest](./images/WebPageTest.png)
 
 ## 5. Dificultades
 
