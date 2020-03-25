@@ -88,7 +88,7 @@ El objetivo de este proyecto era implementar una solución a problemas reales co
     * Adquirimos certificado SSL utlizando **Cloudflare**.
     * Configuración del SMTP con **WP Mail SMTP**.
     * Two factor autentication con el plugin **Two factor** proveido por WordPress.
-    * Autenticacion con terceros, Facebook y Google, con el plugin **Social Login** preveido por WordPress.
+    * Autenticacion con terceros, Facebook,Google,Instagram y linkedin con el plugin **Social Login** preveido por WordPress.
     * Implementacion de protección anti ataques de fuerza bruta con **Anti-Malware Security and Brute-Force Firewall**.
     * Protección anti spam y anti DDoS con **Spam Protection**.
   
