@@ -85,10 +85,10 @@ El objetivo de este proyecto era implementar una solución a problemas reales co
   
 ### 3.2. Versión HPC
   * **Kevyn -> Seguridad:**
-    * Adquirimos certificado SSL utlizando **Cloudflare**: images/SSL certificado.jpeg
+    * Adquirimos certificado SSL utlizando **Cloudflare**: ![SSLCertificado](./images/SSLCertificado.png)
     * Configuración del SMTP con **WP Mail SMTP**.
-    * Two factor autentication con el plugin **Two factor** proveido por WordPress: ![Two factor](./images/Two factor.png)
-    * Autenticacion con terceros, Facebook,Google,Instagram y linkedin con el plugin **Social Login** preveido por WordPress: ![Social login](./images/Social login.png)
+    * Two factor autentication con el plugin **Two factor** proveido por WordPress: ![TwoFactor](./images/TwoFactor.png)
+    * Autenticacion con terceros, Facebook,Google,Instagram y linkedin con el plugin **Social Login** preveido por WordPress: ![SocialLogin](./images/SocialLogin.png)
     * Implementacion de protección anti ataques de fuerza bruta con **Anti-Malware Security and Brute-Force Firewall**.
     * Protección anti spam y anti DDoS con **Spam Protection**.
   
