@@ -17,15 +17,15 @@
   - https://protet.tk
 
 ### 1.5. Asignación de Roles y Responsabilidades
-  * **a) Santiago Arredondo Quintero**
+  * **Santiago Arredondo Quintero**
     * Despliegue WordPress Nativo en Amazon.
     * Diagrama de infraestructura AWS.
     * Diseño e implementación de la estrategia de disponibilidad.
-  * **b) Kevyn Santiago Gómez Patiño**
+  * **Kevyn Santiago Gómez Patiño**
     * Obtención dominio y respectiva configuración.
     * Despliegue WordPress Docker en Amazon.
     * Diseño e implementación de la estrategia de seguridad.
-  * **c) Camilo Gaviria Castrillón**
+  * **Camilo Gaviria Castrillón**
     * Despliegue WordPress Docker en DCA.
     * Despliegue WordPress Nativo en DCA.
     * Diseño e implementación de la estrategia de rendimiento.
