@@ -33,8 +33,8 @@
 ### 1.6. GitHub del Proyecto
   * https://github.com/cgavir29/TET-Proyecto-2
   
-## 2. Entendimiento, Contexto y Caso de Uso de Proyecto
-
+## 2. Entendimiento, Contexto y Caso de Uso del Proyecto
+El objetivo de este proyecto era implementar una solución a problemas reales con los que se encuentran las compañías cuando ven la necesidad de escalar y asegurar que la experiencia siga intacta. Esto se hace asegurando atributos de calidad como **disponibilidad, seguridad y rendimiento** los cuales fueron desarrollados en Amazon AWS utilizando WordPress como CMS. Es importante destacar también que las tecnologías usadas son las mismas que se implementan en el mundo laboral, es decir, las bases sobre las cuales se establece esta actividad y sus requisitos de cantidad de usuarios, tiempos de respuesta, almacenamiento, entre otros, demandan las tecnologías que representan el estado del arte tanto en aspectos de infraestructura como de desarrollo.
 
 ## 3. Desarrollo de los Requerimientos del Proyecto
 
