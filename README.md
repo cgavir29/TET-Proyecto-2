@@ -93,6 +93,17 @@ El objetivo de este proyecto era implementar una solución a problemas reales co
     * Protección anti spam y anti DDoS con **Spam Protection**.
   
   * **Santiago -> Disponibilidad:**
+    * Se creó un VPC.
+    * Se creó un IGW y se asoció al VPC creado.
+    * Se crearon 2 Subnets públicos y dos privados dentro del VPC.
+    * Se configuraron los Subnets para que autoasignen ip publicas.
+    * Se editó la tabla de rutas del VPC y se le asocian los los Subnets públicos.
+    * Se creó los grupos de seguridad de las instancias, balanceador de cargas y la base de datos.
+    * Se creó un cluster de MySql Aurora con dos zonas de disponibilidad, backups cada 7 días y manejo de failover.
+    * Se creó una instancia en dos zonas de disponibilidad diferentes con WordPress montado.
+    * Se creó un ELB configurado para recibir peticiones https y se le asignan las instancias creadas.
+    * Se creó un Auto Scaling Group que está asociado al balanceador de carga.
+    * Las instancias, el ELB cuentan con una zona de monitoreo y comportamiento. La base de datos y el Auto Scaling Group tambien cuentan con esto y adicionalmente cuentan con una alarmas configuradas en Amazon CloudWatch.
 
   * **Camilo -> Rendimiento:**
     * Se montó el CDN utilizando **Cloudflare**.
