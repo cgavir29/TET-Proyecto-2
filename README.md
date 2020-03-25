@@ -6,7 +6,7 @@
   - Santiago Arredondo Quintero | sarredondq@eafit.edu.co 
   - Kevyn Santiago Gómez Patiño | ksgomezp@eafit.edu.co
   - Camilo Gaviria Castrillón | cgavir29@eafit.edu.co
-  
+
 ### 1.2. Aplicación Seleccionada
   - WordPress
 
@@ -33,13 +33,13 @@
 
 ### 1.6. GitHub del Proyecto
   * https://github.com/cgavir29/TET-Proyecto-2
-  
+
 ## 2. Entendimiento, Contexto y Caso de Uso del Proyecto
 El objetivo de este proyecto era implementar una solución a problemas reales con los que se encuentran las compañías cuando ven la necesidad de escalar y asegurar que la experiencia siga intacta. Esto se hace asegurando atributos de calidad como **disponibilidad, seguridad y rendimiento** los cuales fueron desarrollados en Amazon AWS utilizando WordPress como CMS. Es importante destacar también que las tecnologías usadas son las mismas que se implementan en el mundo laboral, es decir, las bases sobre las cuales se establece esta actividad y sus requisitos de cantidad de usuarios, tiempos de respuesta, almacenamiento, entre otros, demandan las tecnologías que representan el estado del arte tanto en aspectos de infraestructura como de desarrollo.
 
-Este proyecto es un sistema LAMP de gestión de contenido diseñado para aproxomadamente 20.000 usuarios con un nivel de concurrencia del 10%. Con un diseño de almacenamiento total de 500GB. cada usuario se podrá conectar por una conexión de banda ancha de mínimo 20 Mbps.
+Este proyecto es un sistema LAMP de gestión de contenido diseñado para aproximadamente 20.000 usuarios con un nivel de concurrencia del 10%. Con un diseño de almacenamiento total de 500GB. cada usuario se podrá conectar por una conexión de banda ancha de mínimo 20 Mbps.
 
-Nuestro sitio **https://protet.tk** es una plataforma CMS de WordPress informativa y de prueba académica, donde como estudiantes y administradores del sitio podemos hacer publicaciones las cuales, los usuarios, como suscriptores pueden registrarse y seguir el contenido que esta posteado en la web. Podran acceder por diferentes redes como Facebook, Google, Instagram y Linkedin, administrar su perfil y navegar en la pagina.
+Nuestro sitio **https://protet.tk** es una plataforma CMS de WordPress informativa y de prueba académica, donde como estudiantes y administradores del sitio podemos hacer publicaciones las cuales tanto usuarios como suscriptores pueden registrarse y seguir el contenido que está posteado en la web. Podrán acceder por diferentes redes como Facebook, Google, Instagram y LinkedIn, administrar su perfil y navegar en la página.
 
 ## 3. Desarrollo de los Requerimientos del Proyecto
 
@@ -86,28 +86,28 @@ Nuestro sitio **https://protet.tk** es una plataforma CMS de WordPress informati
   * Se desplegó Wordpress en Amazon usando Docker.
   * Se hizo la configuración del DNS para Amazon.
   * Se desplegó Wordpress nativo en Amazon.
-  
+
 ### 3.2. Versión HPC
   * **Kevyn -> Seguridad:**
     * Adquirimos certificado SSL utlizando **Cloudflare**: ![SSLCertificado](./images/SSLCertificado.jpeg)
     * Configuración del SMTP con **WP Mail SMTP**.
-    * Two factor autentication con el plugin **Two factor** proveido por WordPress: ![TwoFactor](./images/TwoFactor.jpeg)
-    * Autenticacion con terceros, Facebook,Google,Instagram y linkedin con el plugin **Social Login** preveido por WordPress: ![SocialLogin](./images/SocialLogin.jpeg)
-    * Implementacion de protección anti ataques de fuerza bruta con **Anti-Malware Security and Brute-Force Firewall**.
-    * Protección anti spam y anti DDoS con **Spam Protection**.
-  
+    * Two Factor Autentication con el plugin **Two factor** proveído por WordPress: ![TwoFactor](./images/TwoFactor.jpeg)
+    * Autenticación con terceros, Facebook, Google, Instagram y LinkedIn con el plugin **Social Login** preveído por WordPress: ![SocialLogin](./images/SocialLogin.jpeg)
+    * Implementación de protección anti ataques de fuerza bruta con **Anti-Malware Security and Brute-Force Firewall**.
+    * Protección anti spam y anti DDoS con **Spam Protection**.  
+
   * **Santiago -> Disponibilidad:**
     * Se creó un **VPC**.
     * Se creó un **IGW** y se asoció al **VPC** creado.
     * Se crearon 2 **Subnets** públicos y dos privados dentro del **VPC**.
-    * Se configuraron los **Subnets** para que autoasignen ip publicas.
+    * Se configuraron los **Subnets** para que auto asignen IP públicas.
     * Se editó la tabla de rutas del **VPC** y se le asocian los los **Subnets** públicos.
     * Se creó los grupos de seguridad de las instancias, balanceador de cargas y la base de datos.
-    * Se creó un cluster de **MySql Aurora** con dos zonas de disponibilidad, backups cada 7 días y manejo de **failover**.
+    * Se creó un cluster de **MySQL Aurora** con dos zonas de disponibilidad, backups cada 7 días y manejo de **failover**.
     * Se creó una **instancia** en dos zonas de disponibilidad diferentes con WordPress montado.
-    * Se creó un **ELB** configurado para recibir peticiones https y se le asignan las instancias creadas.
+    * Se creó un **ELB** configurado para recibir peticiones HTTPS y se le asignan las instancias creadas.
     * Se creó un **Auto Scaling Group** que está asociado al balanceador de carga.
-    * Las **instancias**, el **ELB** cuentan con una zona de monitoreo y comportamiento. La **base de datos** y el **Auto Scaling Group** tambien cuentan con esto y adicionalmente cuentan con una alarmas configuradas en **Amazon CloudWatch**.
+    * Las **instancias**, el **ELB** cuentan con una zona de monitoreo y comportamiento. La **base de datos** y el **Auto Scaling Group** también cuentan con esto y adicionalmente cuentan con una alarmas configuradas en **Amazon CloudWatch**.
     * Diagrama de la arquitectura: ![arquitectura](./images/arquitectura.png)
 
   * **Camilo -> Rendimiento:**
@@ -136,6 +136,6 @@ Nuestro sitio **https://protet.tk** es una plataforma CMS de WordPress informati
   * Se había utilizado W3 Total Cache para la minificación de archivos al principio, sin embargo, la método utilizado por ellos daño algunas partes visuales de la aplicación.
   * La creación de usuarios IAM no genera claves de acceso, lo cual no permite establecer una conexión entre WordPress y S3 para la descarga de contenido estático.
   * Si bien se tienen los plugins en cada contenedor que se despliegue, estos no se activan automáticamante en WordPress por lo que tener todas las máquinas al día con la estrategia de rendimiento es inconcebible.
-  * Se presentaron problemas en la implementacion del DevOps para nuestra aplicación, por la falta de acceso a la creacion de usuarios IAM como otro problema que se menciono anteriormente.
-  * Se presentaron problemas con los subnets ya que estos no asignaban ip pública automaticamente. Se tuvo que configurar.
+  * Se presentaron problemas en la implementacion del DevOps para nuestra aplicación, por la falta de acceso a la creación de usuarios IAM como otro problema que se mencionó anteriormente.
+  * Se presentaron problemas con los subnets ya que estos no asignaban IP pública automaticamente. Se tuvo que configurar.
   * AWS Educate no permitió la creación de un auto scaling group de la base de datos.
