@@ -37,6 +37,8 @@
 ## 2. Entendimiento, Contexto y Caso de Uso del Proyecto
 El objetivo de este proyecto era implementar una solución a problemas reales con los que se encuentran las compañías cuando ven la necesidad de escalar y asegurar que la experiencia siga intacta. Esto se hace asegurando atributos de calidad como **disponibilidad, seguridad y rendimiento** los cuales fueron desarrollados en Amazon AWS utilizando WordPress como CMS. Es importante destacar también que las tecnologías usadas son las mismas que se implementan en el mundo laboral, es decir, las bases sobre las cuales se establece esta actividad y sus requisitos de cantidad de usuarios, tiempos de respuesta, almacenamiento, entre otros, demandan las tecnologías que representan el estado del arte tanto en aspectos de infraestructura como de desarrollo.
 
+Nuestro sitio **protet.tk** es una plataforma CMS de WordPress informativa y de prueba académica, donde como estudiantes y administradores del sitio podemos hacer publicaciones las cuales, los usuarios, como suscriptores pueden registrarse y seguir el contenido que esta posteado en la web. Podran acceder por diferentes redes como Facebook, Google, Instagram y Linkedin, administrar su perfil y navegar en la pagina.
+
 ## 3. Desarrollo de los Requerimientos del Proyecto
 
 ### 3.1. Versión Monolítica
@@ -132,3 +134,4 @@ El objetivo de este proyecto era implementar una solución a problemas reales co
   * Se había utilizado W3 Total Cache para la minificación de archivos al principio, sin embargo, la método utilizado por ellos daño algunas partes visuales de la aplicación.
   * La creación de usuarios IAM no genera claves de acceso, lo cual no permite establecer una conexión entre WordPress y S3 para la descarga de contenido estático.
   * Si bien se tienen los plugins en cada contenedor que se despliegue, estos no se activan automáticamante en WordPress por lo que tener todas las máquinas al día con la estrategia de rendimiento es inconcebible.
+  * Se presentaron problemas en la implementacion del DevOps para nuestra aplicación, por la falta de acceso a la creacion de usuarios IAM como otro problema que se menciono anteriormente.
