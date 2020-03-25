@@ -37,7 +37,7 @@
 ## 2. Entendimiento, Contexto y Caso de Uso del Proyecto
 El objetivo de este proyecto era implementar una solución a problemas reales con los que se encuentran las compañías cuando ven la necesidad de escalar y asegurar que la experiencia siga intacta. Esto se hace asegurando atributos de calidad como **disponibilidad, seguridad y rendimiento** los cuales fueron desarrollados en Amazon AWS utilizando WordPress como CMS. Es importante destacar también que las tecnologías usadas son las mismas que se implementan en el mundo laboral, es decir, las bases sobre las cuales se establece esta actividad y sus requisitos de cantidad de usuarios, tiempos de respuesta, almacenamiento, entre otros, demandan las tecnologías que representan el estado del arte tanto en aspectos de infraestructura como de desarrollo.
 
-Nuestro sitio **protet.tk** es una plataforma CMS de WordPress informativa y de prueba académica, donde como estudiantes y administradores del sitio podemos hacer publicaciones las cuales, los usuarios, como suscriptores pueden registrarse y seguir el contenido que esta posteado en la web. Podran acceder por diferentes redes como Facebook, Google, Instagram y Linkedin, administrar su perfil y navegar en la pagina.
+Nuestro sitio **https://protet.tk** es una plataforma CMS de WordPress informativa y de prueba académica, donde como estudiantes y administradores del sitio podemos hacer publicaciones las cuales, los usuarios, como suscriptores pueden registrarse y seguir el contenido que esta posteado en la web. Podran acceder por diferentes redes como Facebook, Google, Instagram y Linkedin, administrar su perfil y navegar en la pagina.
 
 ## 3. Desarrollo de los Requerimientos del Proyecto
 
