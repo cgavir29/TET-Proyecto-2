@@ -21,6 +21,7 @@
     * Despliegue WordPress Nativo en Amazon.
     * Diagrama de infraestructura AWS.
     * Diseño e implementación de la estrategia de disponibilidad.
+    * Diseño e implementación de la arquitectura en AWS.
   * **Kevyn Santiago Gómez Patiño**
     * Obtención dominio y respectiva configuración.
     * Despliegue WordPress Docker en Amazon.
