@@ -104,6 +104,7 @@ El objetivo de este proyecto era implementar una solución a problemas reales co
     * Se creó un ELB configurado para recibir peticiones https y se le asignan las instancias creadas.
     * Se creó un Auto Scaling Group que está asociado al balanceador de carga.
     * Las instancias, el ELB cuentan con una zona de monitoreo y comportamiento. La base de datos y el Auto Scaling Group tambien cuentan con esto y adicionalmente cuentan con una alarmas configuradas en Amazon CloudWatch.
+    * Diagrama de la arquitectura: ![arquitectura](./images/arquitectura.png)
 
   * **Camilo -> Rendimiento:**
     * Se montó el CDN utilizando **Cloudflare**.
