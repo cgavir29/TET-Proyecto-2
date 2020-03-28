@@ -112,15 +112,14 @@ Nuestro sitio **https://protet.tk** es una plataforma CMS de WordPress informati
 
   * **Camilo -> Rendimiento:**
     * Se montó el CDN utilizando **Cloudflare**.
-    * Minificación de HTML, CSS y JavaScript usando **Cloudflare**.
+    * Minificación de HTML, CSS y JavaScript usando **Cloudflare**. ![CloudFlareMinify](./images/CloudFlareMinify.png)
     * Minimización de plugins en WordPress. Sólo se tienen los necesarios para mejorar el desempeño.
     * Estrategia de Caching de _Page Cache, Object Cache y Browser Cache_ utilizando **W3 Total Cache**.
     * Optimización de imágenes existentes y futuras con **Smush** para sean del mismo tamaño que se renderizan.
     * Lazy load en imágenes con **Smush** para que las imágenes no visibles cargen de último, mejorando así el tiempo de respuesta inicial.
-    * Creación del bucket en S3 y establecimiento de políticas de acceso al bucket.
-    * Creación de políticas de acceso para usuarios IAM hacia S3.
-    * Creación de cuenta propia para el contenido estático en S3.
-    * Se trasladó el contenido estático satisfactoriamente.
+    * Creación del bucket en S3 y establecimiento de políticas de acceso al bucket y configuración de permisos. ![S3Bucket1](./images/S3Bucket1.png) ![S3Bucket2](./images/S3Bucket2.png) ![S3Bucket3](./images/S3Bucket3.png)
+    * Creación de políticas de acceso para usuarios IAM hacia S3. ![IAMPolicy](./images/IAMPolicy.png)
+    * Creación de usuario IAM con la política creada anteriormente. ![IAMUser](./images/IAMUser.png)
     * Se transladaron los plugins al repositorio para tenerlos disponibles en cada contenedor que se despliegue de manera automática por el autoscaling group.
     * Resultado Google PageSpeed Mobile: ![GooglePageSpeedMobile](./images/GooglePageSpeedMobile.png)
     * Resultado Google PageSpeed Desktop: ![GooglePageSpeedDesktop](./images/GooglePageSpeedDesktop.png)
