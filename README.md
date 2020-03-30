@@ -87,7 +87,7 @@ Nuestro sitio **https://protet.tk** es una plataforma CMS de WordPress informati
   * Se hizo la configuración del DNS para Amazon.
   * Se desplegó Wordpress nativo en Amazon.
 
-### 3.2. Versión HPC
+### 3.2. Versión HA
   * **Kevyn -> Seguridad:**
     * Adquirimos certificado SSL utlizando **Cloudflare**: ![SSLCertificado](./images/SSLCertificado.jpeg)
     * Configuración del SMTP con **WP Mail SMTP**.
